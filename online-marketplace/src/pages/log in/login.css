@@ -1,0 +1,19 @@
+#log-in {
+  margin: auto;
+  margin-top: 12%;
+  width: 40%;
+  padding: 30px 0
+}
+
+.input-form {
+  margin: 20px auto;
+  max-width: 70%;
+}
+
+#logIn-btn {
+  width: 70%
+}
+
+#signUp-btn {
+  margin: 20px auto;
+}
