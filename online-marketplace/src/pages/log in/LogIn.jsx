@@ -16,7 +16,6 @@ const LogIn = () => {
       <Nav>
         <Link id='signUp-btn' to="signup">Don't have an account?</Link>
       </Nav>
-      {/* <Button id='signIn-btn' variant='secondary'>Sign Up</Button> */}
     </Container>
   );
 }

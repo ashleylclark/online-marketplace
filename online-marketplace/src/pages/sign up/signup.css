@@ -1,0 +1,19 @@
+#sign-up {
+  margin: auto;
+  margin-top: 10%;
+  width: 40%;
+  padding: 30px 0
+}
+
+.input-form {
+  margin: 20px auto;
+  max-width: 70%;
+}
+
+#signUp-btn {
+  width: 70%
+}
+
+p {
+  margin: 0;
+}
