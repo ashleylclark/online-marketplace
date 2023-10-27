@@ -1,0 +1,30 @@
+#home-nav {
+  background-color: rgb(193, 193, 193);
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 20px;
+}
+
+/* #home-cont {
+  margin: 0;
+  width: 100%;
+} */
+
+#nav-srch {
+  /* margin: auto 5%; */
+  width: 40%;
+}
+
+#cart {
+  padding-top: 5px;
+  margin-left: 30px;
+}
+
+.home-btn {
+  height: 75px;
+  width: 200px;
+  margin: 40px 20px;
+  color: black;
+  background-color: gainsboro;
+  border-color: gainsboro;
+}
