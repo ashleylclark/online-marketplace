@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container'
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 import Nav from 'react-bootstrap/Nav'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 import './login.css'
 
@@ -12,7 +12,9 @@ const LogIn = () => {
       <h2>Welcome to Webstore!</h2>
       <Form.Control className='input-form' type='text' placeholder='Username' />
       <Form.Control className='input-form' type='password' placeholder='Password' />
-      <Button id='logIn-btn' variant='primary' type='submit'>Log In</Button>
+      <Link to="/home">
+        <Button id='logIn-btn' variant='primary' type='submit'>Log In</Button>
+      </Link>
       <Nav>
         <Link id='signUp-btn' to="signup">Don't have an account?</Link>
       </Nav>
